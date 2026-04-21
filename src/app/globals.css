@@ -1,0 +1,271 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── CSS Variables ─────────────────────────────────────────────────────────── */
+:root {
+  --gold: #D4AF37;
+  --gold-light: #F0D060;
+  --gold-glow: rgba(212, 175, 55, 0.3);
+
+  /* Light mode */
+  --bg: #F0EFE9;
+  --bg-card: #FFFFFF;
+  --bg-sidebar: #FFFFFF;
+  --text-primary: #1a1a1a;
+  --text-secondary: #555555;
+  --text-muted: #888888;
+  --border: rgba(0, 0, 0, 0.08);
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 16px 48px rgba(0, 0, 0, 0.14);
+  --active-bg: rgba(212, 175, 55, 0.08);
+  --skill-bar-bg: rgba(0,0,0,0.07);
+  --input-bg: rgba(0,0,0,0.04);
+}
+
+.dark {
+  --bg: #1a1a1a;
+  --bg-card: #242424;
+  --bg-sidebar: #1e1e1e;
+  --text-primary: #f0f0f0;
+  --text-secondary: #a0a0a0;
+  --text-muted: #666;
+  --border: rgba(255, 255, 255, 0.06);
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --shadow-hover: 0 16px 48px rgba(0, 0, 0, 0.6);
+  --active-bg: rgba(212, 175, 55, 0.1);
+  --skill-bar-bg: rgba(255,255,255,0.07);
+  --input-bg: rgba(255,255,255,0.04);
+}
+
+/* ─── Base ──────────────────────────────────────────────────────────────────── */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+/* ─── Scrollbar ─────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 3px;
+}
+
+/* ─── Selection ─────────────────────────────────────────────────────────────── */
+::selection {
+  background: var(--gold);
+  color: #000;
+}
+
+/* ─── Typography ────────────────────────────────────────────────────────────── */
+.font-display { font-family: var(--font-playfair), serif; }
+
+/* ─── Gold Gradient Text ────────────────────────────────────────────────────── */
+.gold-text {
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Gold Underline ────────────────────────────────────────────────────────── */
+.gold-underline {
+  position: relative;
+  display: inline-block;
+}
+.gold-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background: var(--gold);
+}
+
+/* ─── Card Base ─────────────────────────────────────────────────────────────── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.card:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+/* ─── Sidebar ───────────────────────────────────────────────────────────────── */
+.sidebar {
+  background: var(--bg-sidebar);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+/* ─── Navigation Active ─────────────────────────────────────────────────────── */
+.nav-item {
+  color: var(--text-secondary);
+  transition: color 0.2s ease, background 0.2s ease;
+}
+.nav-item:hover { color: var(--gold); }
+.nav-item.active {
+  color: var(--gold);
+  background: var(--active-bg);
+}
+
+/* ─── Gold Button ───────────────────────────────────────────────────────────── */
+.btn-gold {
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  color: #000;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--gold-glow);
+}
+
+/* ─── Outline Button ────────────────────────────────────────────────────────── */
+.btn-outline {
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+.btn-outline:hover {
+  background: var(--gold);
+  color: #000;
+}
+
+/* ─── Section Title ─────────────────────────────────────────────────────────── */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: var(--font-playfair), serif;
+  color: var(--text-primary);
+}
+
+/* ─── Skill Bar ─────────────────────────────────────────────────────────────── */
+.skill-bar-bg {
+  background: var(--skill-bar-bg);
+  border-radius: 999px;
+  height: 6px;
+  overflow: hidden;
+}
+.skill-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold), var(--gold-light));
+  border-radius: 999px;
+  transition: width 1s ease;
+}
+
+/* ─── Input ─────────────────────────────────────────────────────────────────── */
+.form-input {
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.2s ease;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 0.875rem;
+}
+.form-input:focus {
+  border-color: var(--gold);
+}
+.form-input::placeholder {
+  color: var(--text-muted);
+}
+
+/* ─── Avatar Ring ───────────────────────────────────────────────────────────── */
+/* .avatar-ring {
+  background: linear-gradient(135deg, var(--gold), var(--gold-light), var(--gold));
+  padding: 3px;
+  border-radius: 50%;
+  animation: spin-slow 8s linear infinite;
+}
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+.avatar-ring {
+  background: linear-gradient(135deg, var(--gold), var(--gold-light), var(--gold));
+  padding: 3px;
+  border-radius: 50%;
+}
+
+/* ─── Separator ─────────────────────────────────────────────────────────────── */
+.separator {
+  width: 100%;
+  height: 1px;
+  background: var(--border);
+  margin: 1.5rem 0;
+}
+
+/* ─── Status Dot ────────────────────────────────────────────────────────────── */
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background: #22c55e;
+  border-radius: 50%;
+  animation: pulse-green 2s infinite;
+}
+@keyframes pulse-green {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.3); }
+}
+
+/* ─── Portfolio Filter ──────────────────────────────────────────────────────── */
+.filter-btn {
+  padding: 6px 16px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.filter-btn:hover, .filter-btn.active {
+  border-color: var(--gold);
+  color: var(--gold);
+  background: var(--active-bg);
+}
+
+/* ─── Timeline ──────────────────────────────────────────────────────────────── */
+.timeline-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--gold);
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.timeline-line {
+  width: 2px;
+  background: var(--border);
+  flex: 1;
+  margin: 4px auto;
+}
+
+/* ─── Noise Texture Overlay ─────────────────────────────────────────────────── */
+.noise::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.4;
+}
