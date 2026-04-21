@@ -131,4 +131,4 @@ All colours are CSS variables in `src/app/globals.css`:
 
 ---
 
-Built with ❤️ for Dikeocha Gift
+Built by Dikeocha Gift
