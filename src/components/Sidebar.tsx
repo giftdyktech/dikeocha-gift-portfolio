@@ -217,7 +217,7 @@ export default function Sidebar() {
           },
           {
             icon: <FaLinkedinIn size={17} />,
-            href: "www.linkedin.com/in/giftdyk",
+            href: "https://www.linkedin.com/in/giftdyk",
             label: "LinkedIn",
           },
           {
