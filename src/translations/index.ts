@@ -16,28 +16,10 @@ export const translations = {
       showContacts: "Show Contacts",
       downloadCV: "Download CV",
     },
-    contact: {
-      title: "Contact",
-      subtitle: "Reach Out to Me",
-      namePlaceholder: "Full Name",
-      emailPlaceholder: "Email Address",
-      messagePlaceholder: "Your Message",
-      send: "Send Message",            
-      email: "Email",
-      phone: "Phone",
-      
-      location: "Location",
-      emailValue: "giftdyk10@gmail.com",
-      phoneValue: "+234 9076707294",
-      locationValue: "Nigeria",
-    },
     about: {
-
       title: "About Me",
-      bio1:
-        "I’m a Software Engineer, UI/UX Designer & Social Media Manager. I create modern, responsive websites and digital experiences that are both visually appealing and highly functional. I blend design, development, and strategy to help brands stand out and grow online. ",
-      bio2:
-        " My mission is to build digital experiences that are not only functional but also visually compelling and strategically impactful—bringing ideas to life through modern technologies, intuitive design, and audience-focused solutions that scale and engage.",
+      bio1: "I'm a Software Engineer, UI/UX Designer & Social Media Manager. I create modern, responsive websites and digital experiences that are both visually appealing and highly functional. I blend design, development, and strategy to help brands stand out and grow online.",
+      bio2: "My mission is to build digital experiences that are not only functional but also visually compelling and strategically impactful—bringing ideas to life through modern technologies, intuitive design, and audience-focused solutions that scale and engage.",
       whatIDo: "What I'm Doing",
       services: {
         web: {
@@ -58,7 +40,6 @@ export const translations = {
         },
       },
       testimonials: "Testimonials",
-       
     },
     resume: {
       title: "Resume",
@@ -69,27 +50,24 @@ export const translations = {
         {
           school: "Mbara Ozioma College of Technology (MOCTECH), Imo State",
           period: "2020 — 2022",
-          detail: " N.D Computer Software Engineering | Upper Credit",
+          detail: "N.D Computer Software Engineering | Upper Credit",
         },
         {
           school: "Aptech Computer Education, Owerri",
           period: "2023",
-          detail:
-            "Website Development | Credit ",
+          detail: "Website Development | Credit",
         },
       ],
       exp: [
         {
-          role: "Software Engineer & Program Manager ",
+          role: "Software Engineer & Program Manager",
           period: "2024 — Present",
-          detail:
-            "Finta Tech, Owerri, Imo State",
+          detail: "Finta Tech, Owerri, Imo State",
         },
         {
           role: "Social Media Manager, Video Editor & Website Manager",
           period: "2025 — Present",
-          detail:
-            "C & C Bespoke Fashion, Maryland, USA (Remote).",
+          detail: "C & C Bespoke Fashion, Maryland, USA (Remote).",
         },
       ],
     },
@@ -102,36 +80,12 @@ export const translations = {
         dev: "Web Development",
       },
       projects: [
-        {
-          title: "ShopEase | E-Commerce Platform",
-          category: "web",
-          tag: "Web Development",
-        },
-        {
-          title: "TaskFlow | Task Management",
-          category: "apps",
-          tag: "Applications",
-        },
-        {
-          title: "Quickchat | Real-time Chat",
-          category: "dev",
-          tag: "Web Development",
-        },
-        {
-          title: "BlogSpace | Article Platform",
-          category: "dev",
-          tag: "Web Development",
-        },
-        {
-          title: "PrepAI | Interview Agent",
-          category: "apps",
-          tag: "Applications",
-        },
-        {
-          title: "FinTrack | Finance Dashboard",
-          category: "web",
-          tag: "Web Design",
-        },
+        { title: "ShopEase | E-Commerce Platform", category: "web", tag: "Web Development" },
+        { title: "TaskFlow | Task Management", category: "apps", tag: "Applications" },
+        { title: "Quickchat | Real-time Chat", category: "dev", tag: "Web Development" },
+        { title: "BlogSpace | Article Platform", category: "dev", tag: "Web Development" },
+        { title: "PrepAI | Interview Agent", category: "apps", tag: "Applications" },
+        { title: "FinTrack | Finance Dashboard", category: "web", tag: "Web Design" },
       ],
     },
     blog: {
@@ -157,7 +111,7 @@ export const translations = {
         },
       ],
     },
-    contact:{
+    contact: {
       title: "Contact",
       subtitle: "Reach Out to Me",
       reachOut: "Have a project in mind or want to collaborate? I'd love to hear from you. Send me a message and I'll get back to you within 24 hours.",
@@ -170,10 +124,10 @@ export const translations = {
       location: "Location",
       emailValue: "giftdyk10@gmail.com",
       phoneValue: "+234 9076707294",
-      
       locationValue: "Nigeria",
     },
   },
+
   ig: {
     nav: {
       about: "Maka Onwe M",
@@ -189,21 +143,10 @@ export const translations = {
       showContacts: "Gosi Kọntaktị",
       downloadCV: "Budata CV",
     },
-    contact: {
-      email: "Ozi-Eletron",
-      phone: "Ekwentị",
-      birthday: "Ụbọchị Ọmụmụ",
-      location: "Ebe",
-      emailValue: "giftdyk10@gmail.com",
-      phoneValue: "+234 9076707294",
-      locationValue: "Naịjirịa",
-    },
     about: {
       title: "Maka Onwe M",
-      bio1:
-        " Abụ m Injinia Sọftụwia, Onye Nhazi UI/UX & Onye Njikwa Mgbasa Ozi. A na-ewu m weebụsaịtị ọhụrụ, na-azaghachi azaghachi yana ahụmịhe dijitalụ ndị dị mma na anya ma rụọ ọrụ nke ọma. A na-ejikọ m nhazi, mmepe, na atụmatụ iji nyere ndị ụlọ ọrụ aka ịpụta ìhè ma too n'ịntanetị.",
-      bio2:
-        " Ebumnobi m bụ iwu ahụmịhe dijitalụ ndị na-arụ ọrụ ma dịkwa mfe ịlụ ọgụ ma nwee mmetụta dị ukwuu—na-ewe echiche ndị mmadụ n'ụlọ site na teknụzụ ọhụrụ, nhazi dị mfe, yana ngwọta na-elekwasị anya na ndị ọbịa nke na-eto eto ma na-akpali akpali.",
+      bio1: "Abụ m Injinia Sọftụwia, Onye Nhazi UI/UX & Onye Njikwa Mgbasa Ozi. A na-ewu m weebụsaịtị ọhụrụ, na-azaghachi azaghachi yana ahụmịhe dijitalụ ndị dị mma na anya ma rụọ ọrụ nke ọma. A na-ejikọ m nhazi, mmepe, na atụmatụ iji nyere ndị ụlọ ọrụ aka ịpụta ìhè ma too n'ịntanetị.",
+      bio2: "Ebumnobi m bụ iwu ahụmịhe dijitalụ ndị na-arụ ọrụ ma dịkwa mfe ịlụ ọgụ ma nwee mmetụta dị ukwuu—na-ewe echiche ndị mmadụ n'ụlọ site na teknụzụ ọhụrụ, nhazi dị mfe, yana ngwọta na-elekwasị anya na ndị ọbịa nke na-eto eto ma na-akpali akpali.",
       whatIDo: "Ihe M Na-arụ",
       services: {
         web: {
@@ -212,7 +155,7 @@ export const translations = {
         },
         mobile: {
           title: "Nkwalite SEO",
-          desc: " Ịkwalite ọhụụ nchọta, ọkwa, na ọnọdụ ojii sitere n'ụzọ ọbụnọ.",
+          desc: "Ịkwalite ọhụụ nchọta, ọkwa, na ọnọdụ ojii sitere n'ụzọ ọbụnọ.",
         },
         api: {
           title: "Nhazi UI/UX",
@@ -220,11 +163,10 @@ export const translations = {
         },
         ui: {
           title: "Njikwa Mgbasa Ozi",
-          desc: " Imepụta, ijikwa, ma ito ọnọdụ ụlọ ọrụ n'elu ikpo okwu mgbasa ozi iji bulie mkpakọrịta na nso.",
+          desc: "Imepụta, ijikwa, ma ito ọnọdụ ụlọ ọrụ n'elu ikpo okwu mgbasa ozi iji bulie mkpakọrịta na nso.",
         },
       },
       testimonials: "Ihe Ndị Ọzọ Kwuru",
-      // clients: "Ndị Ọrịa",
     },
     resume: {
       title: "Ihe Ọ Mụtara",
@@ -233,28 +175,26 @@ export const translations = {
       skills: "Nka M",
       edu: [
         {
-          school: "Mahadum Nigeria",
-          period: "2020 — 2024",
-          detail: "B.Sc. Sayensị Kọmputa | Ọkwa Mbụ",
+          school: "Mbara Ozioma College of Technology (MOCTECH), Imo State",
+          period: "2020 — 2022",
+          detail: "N.D Injinia Sọftụwia Kọmputa | Upper Credit",
         },
         {
-          school: "Asụsụ Nkuzi Ọnlạịnị",
-          period: "2022 — Ugbu a",
-          detail: "Meta Front-End Developer | AWS | Google UX Design",
+          school: "Aptech Computer Education, Owerri",
+          period: "2023",
+          detail: "Mmepe Weebụsaịtị | Credit",
         },
       ],
       exp: [
         {
-          role: "Onye Mmepụta Full-Stack",
-          period: "2022 — Ugbu a",
-          detail:
-            "Emechara ihe karị iri abụọ ọrụ ndị ahịa. Wulie React/Next.js frontends na Node.js backends.",
+          role: "Injinia Sọftụwia & Onye Njikwa Mmemme",
+          period: "2024 — Ugbu a",
+          detail: "Finta Tech, Owerri, Imo State",
         },
         {
-          role: "Onye Ọrụ Junior",
-          period: "2021 — 2022",
-          detail:
-            "Meziere REST APIs na ihu weebụ. Sonye na agile sprints na nyochaa koodu.",
+          role: "Onye Njikwa Mgbasa Ozi, Onye Dezie Vidiyo & Onye Njikwa Weebụsaịtị",
+          period: "2025 — Ugbu a",
+          detail: "C & C Bespoke Fashion, Maryland, USA (Ọrụ n'ụlọ).",
         },
       ],
     },
@@ -267,36 +207,12 @@ export const translations = {
         dev: "Mmepụta Weebụ",
       },
       projects: [
-        {
-          title: "ShopEase | Ọnụ Ahịa",
-          category: "web",
-          tag: "Mmepụta Weebụ",
-        },
-        {
-          title: "TaskFlow | Njikwa Ọrụ",
-          category: "apps",
-          tag: "Ngwa",
-        },
-        {
-          title: "Quickchat | Mkparịta Ụka",
-          category: "dev",
-          tag: "Mmepụta Weebụ",
-        },
-        {
-          title: "BlogSpace | Ọdịnaya",
-          category: "dev",
-          tag: "Mmepụta Weebụ",
-        },
-        {
-          title: "PrepAI | Onye Inyeaka",
-          category: "apps",
-          tag: "Ngwa",
-        },
-        {
-          title: "FinTrack | Ọnọdụ Ego",
-          category: "web",
-          tag: "Nhazi Weebụ",
-        },
+        { title: "ShopEase | Ọnụ Ahịa", category: "web", tag: "Mmepụta Weebụ" },
+        { title: "TaskFlow | Njikwa Ọrụ", category: "apps", tag: "Ngwa" },
+        { title: "Quickchat | Mkparịta Ụka", category: "dev", tag: "Mmepụta Weebụ" },
+        { title: "BlogSpace | Ọdịnaya", category: "dev", tag: "Mmepụta Weebụ" },
+        { title: "PrepAI | Onye Inyeaka", category: "apps", tag: "Ngwa" },
+        { title: "FinTrack | Ọnọdụ Ego", category: "web", tag: "Nhazi Weebụ" },
       ],
     },
     blog: {
@@ -332,13 +248,13 @@ export const translations = {
       send: "Zipu Ozi",
       email: "Ozi-Eletron",
       phone: "Ekwentị",
-      birthday: "Ụbọchị Ọmụmụ",
       location: "Ebe",
       emailValue: "giftdyk10@gmail.com",
       phoneValue: "+234 9076707294",
       locationValue: "Naịjirịa",
     },
   },
+
   fr: {
     nav: {
       about: "À Propos",
@@ -349,26 +265,15 @@ export const translations = {
     },
     hero: {
       name: "Dikeocha Gift",
-      role: " Ingénieur logiciel",
+      role: "Ingénieur Logiciel",
       hireMe: "Engagez-Moi",
       showContacts: "Voir Contacts",
       downloadCV: "Télécharger CV",
     },
-    contact: {
-      email: "E-mail",
-      phone: "Téléphone",
-      birthday: "Anniversaire",
-      location: "Localisation",
-      emailValue: "giftdyk10@gmail.com",
-      phoneValue: "+234 9076707294",
-      locationValue: "Nigeria",
-    },
     about: {
       title: "À Propos de Moi",
-      bio1:
-        " Je suis Ingénieur Logiciel, Designer UI/UX & Gestionnaire de Réseaux Sociaux. Je crée des sites web modernes et réactifs ainsi que des expériences digitales à la fois visuellement attrayantes et hautement fonctionnelles. Je mélange design, développement et stratégie pour aider les marques à se démarquer et à croître en ligne.",
-      bio2:
-        " Ma mission est de construire des expériences numériques non seulement fonctionnelles, mais aussi visuellement percutantes et stratégiquement impactantes — donnant vie aux idées grâce aux technologies modernes, au design intuitif et à des solutions orientées audience qui évoluent et engagent.",
+      bio1: "Je suis Ingénieur Logiciel, Designer UI/UX & Gestionnaire de Réseaux Sociaux. Je crée des sites web modernes et réactifs ainsi que des expériences digitales à la fois visuellement attrayantes et hautement fonctionnelles. Je mélange design, développement et stratégie pour aider les marques à se démarquer et à croître en ligne.",
+      bio2: "Ma mission est de construire des expériences numériques non seulement fonctionnelles, mais aussi visuellement percutantes et stratégiquement impactantes — donnant vie aux idées grâce aux technologies modernes, au design intuitif et à des solutions orientées audience qui évoluent et engagent.",
       whatIDo: "Ce Que Je Fais",
       services: {
         web: {
@@ -377,19 +282,18 @@ export const translations = {
         },
         mobile: {
           title: "Optimisation SEO",
-          desc: " Amélioration de la visibilité dans les moteurs de recherche, des classements et du trafic organique.",
+          desc: "Amélioration de la visibilité dans les moteurs de recherche, des classements et du trafic organique.",
         },
         api: {
           title: "Design UI/UX",
-          desc: " Interfaces épurées et centrées sur l'utilisateur, conçues pour offrir des expériences fluides et engageantes.",
+          desc: "Interfaces épurées et centrées sur l'utilisateur, conçues pour offrir des expériences fluides et engageantes.",
         },
         ui: {
-          title: " Gestion des Réseaux Sociaux",
-          desc: " Créer, gérer et développer la présence d'une marque sur les plateformes sociales pour booster l'engagement et la portée.",
+          title: "Gestion des Réseaux Sociaux",
+          desc: "Créer, gérer et développer la présence d'une marque sur les plateformes sociales pour booster l'engagement et la portée.",
         },
       },
       testimonials: "Témoignages",
-      clients: "Clients",
     },
     resume: {
       title: "Curriculum Vitae",
@@ -400,26 +304,24 @@ export const translations = {
         {
           school: "Mbara Ozioma College of Technology (MOCTECH), Imo State",
           period: "2020 — 2022",
-          detail: "Computer Software Engineering | Mention Très Bien",
+          detail: "Génie Logiciel Informatique | Mention Bien",
         },
         {
-          school: "Certifications en Ligne",
-          period: "2022 — Présent",
-          detail: "Meta Front-End Developer | AWS | Google UX Design",
+          school: "Aptech Computer Education, Owerri",
+          period: "2023",
+          detail: "Développement de Sites Web | Mention",
         },
       ],
       exp: [
         {
-          role: "Développeur Full-Stack Freelance",
-          period: "2022 — Présent",
-          detail:
-            "Livré plus de 20 projets clients. Construit des frontends React/Next.js et des backends Node.js évolutifs.",
+          role: "Ingénieur Logiciel & Responsable de Programme",
+          period: "2024 — Présent",
+          detail: "Finta Tech, Owerri, Imo State",
         },
         {
-          role: "Développeur Junior Stagiaire",
-          period: "2021 — 2022",
-          detail:
-            "Implémenté des API RESTful et des interfaces frontend dynamiques. Participé aux sprints agiles et revues de code.",
+          role: "Gestionnaire des Réseaux Sociaux, Monteur Vidéo & Gestionnaire de Site Web",
+          period: "2025 — Présent",
+          detail: "C & C Bespoke Fashion, Maryland, USA (Télétravail).",
         },
       ],
     },
@@ -432,36 +334,12 @@ export const translations = {
         dev: "Développement Web",
       },
       projects: [
-        {
-          title: "ShopEase | Plateforme E-Commerce",
-          category: "web",
-          tag: "Développement Web",
-        },
-        {
-          title: "TaskFlow | Gestion des Tâches",
-          category: "apps",
-          tag: "Applications",
-        },
-        {
-          title: "Quickchat | Chat en Temps Réel",
-          category: "dev",
-          tag: "Développement Web",
-        },
-        {
-          title: "BlogSpace | Plateforme d'Articles",
-          category: "dev",
-          tag: "Développement Web",
-        },
-        {
-          title: "PrepAI | Agent d'Entretien",
-          category: "apps",
-          tag: "Applications",
-        },
-        {
-          title: "FinTrack | Tableau de Bord Financier",
-          category: "web",
-          tag: "Design Web",
-        },
+        { title: "ShopEase | Plateforme E-Commerce", category: "web", tag: "Développement Web" },
+        { title: "TaskFlow | Gestion des Tâches", category: "apps", tag: "Applications" },
+        { title: "Quickchat | Chat en Temps Réel", category: "dev", tag: "Développement Web" },
+        { title: "BlogSpace | Plateforme d'Articles", category: "dev", tag: "Développement Web" },
+        { title: "PrepAI | Agent d'Entretien", category: "apps", tag: "Applications" },
+        { title: "FinTrack | Tableau de Bord Financier", category: "web", tag: "Design Web" },
       ],
     },
     blog: {
@@ -497,7 +375,6 @@ export const translations = {
       send: "Envoyer le Message",
       email: "E-mail",
       phone: "Téléphone",
-      birthday: "Anniversaire",
       location: "Localisation",
       emailValue: "giftdyk10@gmail.com",
       phoneValue: "+234 9076707294",
@@ -505,5 +382,3 @@ export const translations = {
     },
   },
 } as const;
-
-
